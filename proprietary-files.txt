@@ -1257,6 +1257,15 @@ vendor/lib64/vendor.qti.esepowermanager@1.1.so
 my_bigball/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml|58ddaa5bbff62eefd2d5c39900b7b29fd177def1
 my_bigball/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED|4fb8d8ab0e1dbda1582361f48395f819367edb0a
 
+# Felica - garnet 3.0.1.0.WNRJPKD
+mi_ext/product/app/MobileFeliCaClient/MobileFeliCaClient.apk:product/app/MobileFeliCaClient/MobileFeliCaClient.apk;PRESIGNED|8c4912e146cbf26eeff72c4f58da7580881d9254
+mi_ext/product/app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk:product/app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk;PRESIGNED|179d8dfce2a9e921be812469c111c54845429a57
+mi_ext/product/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk:product/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk;PRESIGNED|b240912bd2bf7fe914ed35b17a4ccad815c243ec 
+mi_ext/product/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk:product/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk;PRESIGNED|32faf5c9a7cefcf2f10f3b77d4990920c9b4a60a
+vendor/etc/felica/common.cfg|18bcaaf6e5e8212f92efe4388f2feca9271cd1d1
+vendor/etc/felica/mfm.cfg|2dd5e2112d70f039b111b15271fbefdb45bca649
+vendor/etc/felica/mfs.cfg|0adfe851cbe62db27c91bcf314bb708b64059af9
+
 # Fingerprint
 odm/lib64/hw/fingerprint.fpc_fod.so:odm/lib64/hw/fingerprint.fpc_fod.default.so;FIX_SONAME
 odm/lib64/hw/fingerprint.goodix_fod.so:odm/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME
