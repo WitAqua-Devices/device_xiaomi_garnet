@@ -7,5 +7,8 @@ ro.product.odm.device=XIG05
 ro.product.odm.model=XIG05
 ro.product.odm.name=XIG05_jp_kdi
 
+# NFC
+persist.vendor.nfc.config_file_name=libnfc-nxp-typef.conf
+
 # USB
 vendor.usb.product_string=XIG05
