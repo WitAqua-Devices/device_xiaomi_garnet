@@ -283,6 +283,7 @@ PRODUCT_PACKAGES += \
     LineageSystemUIOverlayGarnet \
     NfcOverlayGarnet \
     SettingsOverlayGarnet \
+    SettingsOverlayXIG05 \
     SettingsProviderOverlayGarnetPoco \
     SettingsProviderOverlayGarnetRedmi \
     SettingsProviderOverlayGarnetRedmiCN \
