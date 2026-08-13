@@ -282,6 +282,12 @@ PRODUCT_PACKAGES += \
     LineageSettingsOverlayGarnet \
     LineageSystemUIOverlayGarnet \
     NfcOverlayGarnet \
+    SettingsOverlay2312CRAD3C \
+    SettingsOverlay2312DRA50C \
+    SettingsOverlay2312DRA50G \
+    SettingsOverlay2312DRA50I \
+    SettingsOverlay23122PCD1G \
+    SettingsOverlay23122PCD1I \
     SettingsOverlayGarnet \
     SettingsOverlayXIG05 \
     SettingsProviderOverlayGarnetPoco \
