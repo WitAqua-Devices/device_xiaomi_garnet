@@ -154,10 +154,6 @@ PRODUCT_PACKAGES += \
     XiaomiEsimSwitcher \
     XiaomiEuicc
 
-# Fastbootd
-PRODUCT_PACKAGES += \
-    fastbootd
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.xiaomi \
@@ -278,7 +274,6 @@ PRODUCT_PACKAGES += \
     FrameworkOverlayGarnetGLEsim \
     FrameworkOverlayGarnetJPEsim \
     Launcher3DeviceOverlayGarnet \
-    LineageSDKOverlayGarnet \
     LineageSettingsOverlayGarnet \
     LineageSystemUIOverlayGarnet \
     NfcOverlayGarnet \
@@ -348,7 +343,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel \
+    hardware/google/pixel/pixelstats \
+    hardware/google/pixel/power-libperfmgr \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
     hardware/xiaomi
